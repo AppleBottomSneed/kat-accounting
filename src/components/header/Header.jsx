@@ -20,12 +20,7 @@ const Header = () => {
           maiores aperiam, tempore itaque.
         </p>
         <div className="kat__header-content__input">
-          <input type="email" placeholder="Your Email Address"></input>
-          <button type="button">Get Started</button>
-        </div>
-        <div className="kat__header-content__people">
-          <img src={people} alt="people" />
-          <p>1,600 people requested access</p>
+          <button type="button">Contact Us</button>
         </div>
       </div>
       <div className="kat__header-image">

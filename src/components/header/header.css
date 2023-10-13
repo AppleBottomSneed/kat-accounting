@@ -65,8 +65,8 @@
   flex: 0.6;
   width: 100%;
   min-height: 50px;
-  background: #ff4820;
-  font-family: var(--font-family);
+  background: var(--color-bluetext);
+  font-family: var(--font-secondary);
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
