@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Sen:wght@400;700&display=swap');
+
 
 
 
@@ -12,6 +13,9 @@
   --color-bg: #ffffff;
   --color-footer: #031b34;
   --color-blog: #042c54;
-  --color-text: #81afdd;
+  --color-text: #000000;
   --color-subtext: #ff8a71;
+  --color-bluetext: #2E3192;
+  --color-redtext: #ED1C24;
+
 }

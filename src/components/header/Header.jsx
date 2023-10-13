@@ -7,8 +7,11 @@ const Header = () => {
   return (
     <div className="kat__header section__padding" id="home">
       <div className="kat__header-content">
-        <h1 className="gradient__text">
-          Let's Build Something amazing with GPT-3 Open AI
+        <h1>
+          <span className="kat__text-blue">Tax</span>
+          <span className="kat__text-black"> done</span>
+          <span className="kat__text-red"> right</span>
+          <span className="kat__text-black">.</span>
         </h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod porro
