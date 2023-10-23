@@ -40,8 +40,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="kat__navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
+        <p>(08) 64603830</p>
       </div>
       <div className="kat__navbar-menu">
         {toggleMenu ? (

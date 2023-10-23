@@ -14,11 +14,10 @@ const Header = () => {
           <span className="kat__text-black">.</span>
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod porro
-          eius exercitationem doloremque vel eveniet, repellendus sed! Nobis
-          fugiat dignissimos enim asperiores odit, dolorem recusandae illo
-          maiores aperiam, tempore itaque.
-        </p>
+        Here at KAT Accounting Services we ensure our clients can sleep easy knowing their business is financially safe and sound.</p>
+        <p>We combine our accounting and bookkeeping in a neat and affordable package hassle-free. </p>
+        <p>Call us for a free consultation and we’ll get you sorted.</p>
+        
         <div className="kat__header-content__input">
           <button type="button">Contact Us</button>
         </div>

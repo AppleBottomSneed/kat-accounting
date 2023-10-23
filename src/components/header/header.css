@@ -40,7 +40,7 @@
 }
 
 .kat__header-content__input {
-  width: 100%;
+  width: 300px;
   margin: 2rem 0 1rem;
   display: flex;
 }
@@ -76,9 +76,7 @@
   outline: none;
   padding: 0 1rem;
   border: none;
-  /*Allows only the right to have border radius*/
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+ border-radius: 50px;
 }
 
 .kat__header-content__people {
@@ -166,5 +164,10 @@
   .kat__header-content__input button {
     font-size: 12px;
     line-height: 16px;
+    
+  }
+
+  .kat__header-content__input {
+    width: 150px;
   }
 }
