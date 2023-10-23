@@ -1,0 +1,11 @@
+.kat__brand {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #2E3192;
+
+
+  
+}
+

@@ -1,8 +1,7 @@
 import React from 'react';
 
-import { Navbar, Header } from "./components";
+import { Navbar, Header, Brand, Services } from "./components";
 import "./App.css";
-
 
 const App = () => {
   return (
@@ -10,6 +9,10 @@ const App = () => {
       <div className='gradient__bg'>
         <Navbar />
         <Header />
+      </div>
+      <Brand />
+      <div className='parrallax__bg'>
+        <Services />
       </div>
     </div>
   )
