@@ -1,3 +1,15 @@
 .kat__services-container {
-    
+    width: 800px;
+    border: 1px black;
+    border-radius: 30px;
+    background-color: #ffff;
+}
+
+.kat__services-container-padding {
+   padding:  2rem 3rem;
+}
+
+
+.kat__services-title {
+    font-size: 75px;
 }
