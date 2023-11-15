@@ -22,7 +22,6 @@
     border-style: double;
     border-radius: 15px;
     color: black;
-    padding:  2rem 3rem;
 }
 
 .kat__services-infocard-feature {
@@ -38,11 +37,15 @@
     height: 150px;
 }
 
-
-
 .kat__services-infocard-title p {
     font-size: 24px;
     font-family: var(--font-secondary);
     margin-left: 50px;
-    max-width: 700px;
+   
+}
+
+.kat__services-infocard-description p {
+    font-size: 15px;
+    font-family: var(--font-secondary);
+    
 }
