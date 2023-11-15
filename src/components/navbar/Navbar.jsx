@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import logo from "../assets/logo.png";
+import { images } from "../../constants";
 import "./navbar.css";
 
 /* Creates the <Menu /> shortcut */
@@ -33,7 +33,7 @@ const Navbar = () => {
     <div className="kat__navbar">
       <div className="kat__navbar-links">
         <div className="kat__navbar-links_logo">
-          <img src={logo} alt="logo" />
+          <img src={images.logo} alt="logo" />
         </div>
         <div className="kat__navbar-links_container">
           <Menu />

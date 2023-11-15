@@ -1,5 +1,5 @@
 import React from "react";
-import tax from "../../components/assets/frontcovergraphics.png";
+import { images } from "../../constants";
 import "./header.css";
 
 const Header = () => {
@@ -21,7 +21,7 @@ const Header = () => {
         </div>
       </div>
       <div className="kat__header-image">
-        <img src={tax} alt="tax header" />
+        <img src={images.tax} alt="tax header" />
       </div>
     </div>
   );
