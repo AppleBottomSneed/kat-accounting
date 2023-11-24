@@ -19,7 +19,7 @@ a {
 }
 
 .parrallax__bg {
-  background-image: url('./components/assets/frontcovergraphics.png');
+  background-image: url('./components/assets/backdrop.png');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;

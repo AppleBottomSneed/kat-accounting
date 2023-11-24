@@ -1,6 +1,4 @@
 .kat__services-container {
-    display: flex;
-    flex-direction: column;
     border: 1px black;
     border-radius: 30px;
     background-color: #ffff;
@@ -14,14 +12,27 @@
     font-size: 75px;
     font-family: var(--font-secondary);
     font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.kat__services-infocard-flex {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 25px;
 }
 
 .kat__services-infocard {
     display: flex;
-    border: 1px;
-    border-style: double;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    border: 2px solid #000000;
     border-radius: 15px;
-    color: black;
+    padding: 20px;
+    width: calc(100% - 20px);
 }
 
 .kat__services-infocard-feature {
@@ -39,13 +50,100 @@
 
 .kat__services-infocard-title p {
     font-size: 24px;
-    font-family: var(--font-secondary);
-    margin-left: 50px;
+    font-family: var(--font-main);
+    font-weight: bold;
+    color: var(--color-bluetext);
+    padding: 0 25px 0 90px;
    
 }
 
 .kat__services-infocard-description p {
     font-size: 15px;
-    font-family: var(--font-secondary);
-    
+    font-family: var(--font-main);
+    padding-top: 10px;
 }
+
+.kat__services-infocard-button {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.kat__services-infocard-button button {
+  min-width: 50px;
+  min-height: 38px;
+  background: var(--color-bluetext);
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 27px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  padding: 0 1rem;
+  border: none;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 1130px ) {
+    .kat__services-infocard-title p {
+        font-size: 24px;
+        font-family: var(--font-secondary);
+        
+    }
+
+    .kat__services-infocard-feature img { 
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 990px ) {
+    .kat__services-infocard-flex {
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-between;
+        row-gap: 13px;
+    }
+
+    .kat__services-title p  {
+        font-size: 50px;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+ 
+}
+
+@media screen and (max-width: 650px ) {
+
+    .kat__services-infocard-feature {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kat__services-infocard-feature img { 
+        width: 70px;
+        height: 70px;
+    }
+
+    .kat__services-infocard-feature p  {
+        font-size: 19px;
+        padding: 0 25px 0 25px;
+    }
+
+    .kat__services-infocard-description p {
+        font-size: 10px;
+    }
+
+    .kat__services-infocard-button button {
+        min-width: 30px;
+        min-height: 30px;
+        background: var(--color-bluetext);
+        font-family: var(--font-secondary);
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 27px;
+      }
+}
+

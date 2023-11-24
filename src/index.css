@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Sen:wght@400;700&display=swap');
-
+@font-face {
+  font-family: 'Arial';
+  src: url(/src/components/assets/fonts/ARIALN.TTF) format('truetype');
+}
 
 
 
 :root {
-  --font-main: 'Nunito', sans-serif;
+  --font-main: 'Arial', sans-serif;
   --font-secondary: 'Sen', sans-serif;
+  --font-tertiary: 'Nunito', sans-serif;
 
   --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
   --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
