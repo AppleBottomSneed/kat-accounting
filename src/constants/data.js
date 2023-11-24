@@ -9,7 +9,7 @@ const services = [
     {
         imgUrl: images.serviceIcon1,
         title: 'Test 2',
-        description: 'Test',
+        description: 'Test ',
     },
 ]
 

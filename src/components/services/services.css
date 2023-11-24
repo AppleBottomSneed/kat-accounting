@@ -24,14 +24,14 @@
 }
 
 .kat__services-infocard {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     border: 2px solid #000000;
     border-radius: 15px;
-    padding: 20px;
+    padding: 20px 20px 75px;
     width: calc(100% - 20px);
 }
 
@@ -64,8 +64,12 @@
 }
 
 .kat__services-infocard-button {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
     width: 100%;
-    padding-top: 30px;
+    display: flex;
+    align-self: flex-end;
 }
 
 .kat__services-infocard-button button {
@@ -83,6 +87,23 @@
   padding: 0 1rem;
   border: none;
   border-radius: 50px;
+}
+
+.kat__services-infocard-viewall {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.kat__services-infocard-viewall button {
+    min-width: 30px;
+    min-height: 30px;
+    background: var(--color-redtext);
+    font-family: var(--font-secondary);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 27px;
 }
 
 @media screen and (max-width: 1130px ) {
