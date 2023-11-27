@@ -33,7 +33,7 @@ const Services = () => {
           {data.services.map((service) => <ServiceCard service={service} key={service.title} />)}
         </div>
         <div className="kat__services-infocard-viewall">
-          <button>Learn More</button>
+          <button>View All Services</button>
         </div>
       </div>
     </div>

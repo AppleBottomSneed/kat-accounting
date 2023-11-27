@@ -1,0 +1,9 @@
+.kat__whyus-container {
+    border: 1px black;
+    border-radius: 30px;
+    background-color: #ffff;
+}
+
+.kat__whyus-container-padding {
+    padding: 2rem 3 rem;
+}

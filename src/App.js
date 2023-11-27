@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Navbar, Header, Brand, Services } from "./components";
+import { Navbar, Header, Brand, Services, Whyus } from "./components";
 import "./App.css";
 
 const App = () => {
@@ -13,6 +13,7 @@ const App = () => {
       <Brand />
       <div className='parrallax__bg'>
         <Services />
+        <Whyus />
       </div>
     </div>
   )

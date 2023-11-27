@@ -76,7 +76,7 @@
   min-width: 50px;
   min-height: 38px;
   background: var(--color-bluetext);
-  font-family: var(--font-secondary);
+  font-family: var(--font-tertiary);
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
@@ -96,21 +96,22 @@
 }
 
 .kat__services-infocard-viewall button {
-    min-width: 30px;
-    min-height: 30px;
+    min-height: 50px;
+    color: #ffffff;
     background: var(--color-redtext);
-    font-family: var(--font-secondary);
+    font-family: var(--font-tertiary);
     font-style: normal;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 20px;
     line-height: 27px;
+    padding: 0 1rem;
+    border-radius: 50px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1130px ) {
     .kat__services-infocard-title p {
         font-size: 24px;
-        font-family: var(--font-secondary);
-        
     }
 
     .kat__services-infocard-feature img { 
@@ -157,14 +158,9 @@
     }
 
     .kat__services-infocard-button button {
-        min-width: 30px;
-        min-height: 30px;
-        background: var(--color-bluetext);
-        font-family: var(--font-secondary);
-        font-style: normal;
-        font-weight: bold;
-        font-size: 10px;
-        line-height: 27px;
-      }
+        min-width: 18px;
+        min-height: 18px;
+        font-size: 10px; 
+    }
 }
 
