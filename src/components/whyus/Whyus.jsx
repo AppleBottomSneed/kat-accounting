@@ -9,10 +9,16 @@ const Whyus = () => {
                 <div className="kat__whyus-title">
                     <p>Why Us?</p>
                 </div>
-                <div className="kat__whyus-flexbox">
-                    <div className="kat__whyus-flexbox-container kat__whyus-container-padding">
-                        <div className="kat__whyus-selfie">
-                            <img src={images.serviceIcon1} alt="directorimage"/>
+                <div className="kat__whyus-flexbox kat__whyus-container-padding">
+                    <div className="kat__whyus-selfie">
+                        <img src={images.serviceIcon1} alt="directorimage"/>
+                    </div>
+                    <div className="kat__whyus-director">
+                        <div className="kat__whyus-director-name">
+                            <p>Kim Anh Truong</p>
+                        </div>
+                        <div className="kat__whyus-director-title">
+                            <p>Director</p>
                         </div>
                     </div>
                 </div>
