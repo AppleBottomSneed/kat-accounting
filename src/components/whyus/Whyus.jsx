@@ -20,6 +20,9 @@ const Whyus = () => {
                         <div className="kat__whyus-director-title">
                             <p>Director</p>
                         </div>
+                        <div className="kat__whyus-director-statement">
+                            <p>Lorem</p>
+                        </div>
                     </div>
                 </div>
             </div>

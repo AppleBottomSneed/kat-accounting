@@ -19,7 +19,7 @@
 .kat__whyus-flexbox {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    column-gap: 15%;
 }
 
 .kat__whyus-selfie img {
@@ -32,9 +32,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 2rem;
+    padding-top: 3px;
 }
 
 .kat__whyus-director-name p {
@@ -50,4 +48,11 @@
     line-height: 130%;
     font-style: italic;
     font-size: 15px;
+    padding-top: 15px;
+}
+
+.kat__whyus-director-statement {
+    font-family: var(--font-main);
+    font-size: 15px;
+    padding-top: 30px;
 }
