@@ -23,7 +23,8 @@
 }
 
 .kat__whyus-selfie img {
-    width: 100%;
+    width: 600px;
+    width: 600px;
     border: 1px solid black;
 }
 
@@ -52,7 +53,63 @@
 }
 
 .kat__whyus-director-statement {
+    padding-top: 30px;
+}
+
+.kat__whyus-director-statement > p {
     font-family: var(--font-main);
     font-size: 15px;
-    padding-top: 30px;
+    padding-top: 10px;
+    color: #737373;
+}
+
+.kat__whyus-awards {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kat__whyus-awardtitle p {
+    font-family: var(--font-secondary);
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--color-bluetext);
+}
+
+.kat__whyus-awards img {
+    padding-top: 1rem;
+    width: 50%;
+    max-width: 300px;
+}
+
+@media screen and (max-width: 1500px ) {
+    .kat__whyus-selfie img {
+        width: 80%;
+    }
+
+    .kat__whyus-flexbox {
+        column-gap: 1%;
+    }
+
+}
+
+@media screen and (max-width: 1130px ) {
+    .kat__whyus-flexbox {
+        flex-direction: column;
+    }
+}    
+
+@media screen and (max-width: 650px ) {
+    .kat__whyus-title p {
+        font-size: 50px;
+    }
+
+    .kat__whyus-director-statement p {
+        font-size: 10px;
+    }
+
+    .kat__whyus-awardtitle p {
+        font-size: 15px;
+    }
 }

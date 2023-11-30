@@ -21,7 +21,16 @@ const Whyus = () => {
                             <p>Director</p>
                         </div>
                         <div className="kat__whyus-director-statement">
-                            <p>Lorem</p>
+                            <p>"As the Director of KAT Accounting Services, I am deeply committed to our mission of delivering unparalleled accounting services that exceed our clients' expectations. We understand that our clients entrust us with their financial well-being, and it's a responsibility we take incredibly seriously.</p>
+                            <p>Our focus goes beyond just numbers and compliance; we prioritize understanding our clients' unique needs and business objectives. We believe in fostering long-term relationships built on trust, transparency, and exceptional service. We are dedicated to offering more than just solutions; we offer strategic guidance, personalized attention, and innovative approaches tailored to our clients' specific circumstances.</p>
+                            <p>We are here to offer guidance, advice, and solutions tailored to your specific needs. Our goal is to instill confidence, providing you with a sense of security and reassurance, knowing that your financial well-being is in the most caring and capable hands.</p>
+                            <p>At KAT Accounting Services, our ethos revolves around a nurturing and protective approach to financial management. We are here not just as advisors but as your steadfast guardians, ensuring your financial interests are safeguarded at every step."</p>
+                        </div>
+                        <div className="kat__whyus-awards">
+                            <div className="kat__whyus-awardtitle">
+                                <p>Pround Members of:</p>
+                            </div>
+                            <img src={images.ntaaicon} alt="ntaa"/>
                         </div>
                     </div>
                 </div>
