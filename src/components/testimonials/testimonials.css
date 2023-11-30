@@ -1,0 +1,16 @@
+.kat__testimonial-bg {
+    background-color: var(--color-bluetext);
+}
+
+.kat__testimonial-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kat__testimonial-title p {
+    font-family: var(--font-secondary);
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+}
