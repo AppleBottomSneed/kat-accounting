@@ -5,6 +5,7 @@ import serviceIcon2 from '../components/assets/servicegraphics2.png';
 import serviceIcon3 from '../components/assets/servicegraphics3.png';
 import serviceIcon4 from '../components/assets/servicegraphics4.png';
 import ntaaicon from '../components/assets/ntaa.png';
+import autorite from '../components/assets/autorite-vechicle-service-centre.jpg';
 
 const assets = {
     tax, 
@@ -14,6 +15,7 @@ const assets = {
     serviceIcon3,
     serviceIcon4,
     ntaaicon,
+    autorite,
 };
 
 export default assets;

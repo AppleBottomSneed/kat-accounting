@@ -25,8 +25,8 @@ const services = [
 
 const clients = [
     {
-        imgUrl: images.serviceIcon1,
-        review: 'Very Good',
+        imgUrl: images.autorite,
+        review: '"Very Good"',
         reviewer: 'Kylie',
         companyName: 'AutoRite',
     },

@@ -5,9 +5,14 @@ import { data } from '../../constants';
 const Clients = ({client: { imgUrl, review, reviewer, companyName }}) => (
   <div className="kat__testimonial-review-card-content">
     <img src={imgUrl} alt="" />
-    <p>{review}</p>
-    <p>{reviewer}</p>
-    <p>{companyName}</p>
+    <div className="kat__testimonial-review-description">
+      <p>{review}</p>
+    </div>
+    <div className="kat__testimonial-redline"></div>
+    <div className="kat__testimonial-review-subtitle">
+      <p>{reviewer}</p>
+      <p>{companyName}</p>
+    </div>
   </div>
   
 )
