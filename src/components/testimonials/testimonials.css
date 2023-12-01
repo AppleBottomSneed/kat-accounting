@@ -64,3 +64,28 @@
     font-family: var(--font-main);
     line-height: 140%;
 }
+
+@media screen and (max-width: 1130px ) {
+    .kat__testimonial-review-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kat__testimonial-review-description {
+        min-height: 215px;
+    }
+}
+
+@media screen and (max-width: 650px ) {
+    .kat__testimonial-title p {
+        font-size: 20px;
+    }
+
+    .kat__testimonial-review-card-content p {
+        font-size: 12px;
+    }
+
+    .kat__testimonial-review-description {
+        min-height: 200px;
+    }
+}

@@ -26,7 +26,7 @@ const services = [
 const clients = [
     {
         imgUrl: images.autorite,
-        review: '"Very Good"',
+        review: '"Very Good Very GoodVery GoodVery GoodVery GoodVery GoodVery GoodVery GoodVery GoodVery GoodVery Good"',
         reviewer: 'Kylie',
         companyName: 'AutoRite',
     },

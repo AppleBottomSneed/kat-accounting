@@ -1,0 +1,13 @@
+.kat__findus-container {
+    display: flex;
+}
+
+.kat__findus-hours-box {
+    width: 40%;
+    background-color: aqua;
+}
+
+.kat__findus-googlemaps-box {
+    flex: 1;
+    background-color: black;
+}
