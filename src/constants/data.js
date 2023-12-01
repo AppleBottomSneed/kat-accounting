@@ -23,4 +23,25 @@ const services = [
     },
 ]
 
-export default { services };
+const clients = [
+    {
+        imgUrl: images.serviceIcon1,
+        review: 'Very Good',
+        reviewer: 'Kylie',
+        companyName: 'AutoRite',
+    },
+    {
+        imgUrl: images.serviceIcon1,
+        review: 'Very Good',
+        reviewer: 'Kylie',
+        companyName: 'AutoRite',
+    },
+    {
+        imgUrl: images.serviceIcon1,
+        review: 'Very Good',
+        reviewer: 'Kylie',
+        companyName: 'AutoRite',
+    },
+]
+
+export default { services, clients };

@@ -14,3 +14,23 @@
     font-size: 32px;
     color: white;
 }
+
+.kat__testimonial-review-card {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 200px;
+}
+
+.kat__testimonial-review-card-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.kat__testimonial-review-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}

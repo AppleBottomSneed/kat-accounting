@@ -30,7 +30,7 @@ const Services = () => {
           <p>Our Services</p>
         </div>
         <div className="kat__services-infocard-flex">
-          {data.services.map((service) => <ServiceCard service={service} key={service.title} />)}
+          {data.services.map((service) => <ServiceCard service={service}/>)}
         </div>
         <div className="kat__services-infocard-viewall">
           <button>View All Services</button>
