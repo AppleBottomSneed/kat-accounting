@@ -42,9 +42,38 @@
     background-color: var(--color-bluetext);
     border-radius: 35px;
     margin-top: 80px;
+    padding-top: 30px;
+    padding-left: 40px;
 }
 
 .kat__findus-hours-box p {
     font-family: var(--font-tertiary);
     color: white;
+    font-weight: bold;
+    line-height: 130%;
+    letter-spacing: 4%;
+}
+
+.kat__findus-hours-box-title {
+    font-size: 25px;
+}
+
+.kat__findus-hours-box-info {
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.kat__findus-hours-box-group {
+    
+    justify-content: space-between;
+}
+
+.kat__findus-hours-box-day {
+    flex: 1;
+}
+
+.kat__findus-hours-box-time {
+    flex: 1; 
+    justify-content: flex-end;
 }
