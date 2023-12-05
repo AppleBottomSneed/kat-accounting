@@ -5,3 +5,4 @@ export { default as Services } from "./services/Services";
 export { default as Whyus } from "./whyus/Whyus";
 export { default as Testimonials } from "./testimonials/Testimonials";
 export { default as Findus } from "./findus/Findus";
+export { default as Footer } from "./footer/Footer";
