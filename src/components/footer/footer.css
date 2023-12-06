@@ -7,7 +7,7 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    background: beige;
+    background: white;
     padding-top: 0;
     font-family: var(--font-);
 }
@@ -18,17 +18,34 @@
     /*Allows responsive space between divs*/
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 5rem;
+    margin-top: 1rem;
     padding:  0 2rem;
 }
 
 .kat__footer-links_contact, 
 .kat__footer-links_logo,
-.kat__footer-links_work {
+.kat__footer-links_work,
+.kat__footer-links-quicklinks {
     /* Allows divs to take equal amount of space*/
     flex: 1;
     margin: 1rem;
     text-align: center;
+}
+
+.kat__footer-links_work, .kat__footer-links_contact p {
+    font-family: var(--font-main);
+}
+
+.kat__footer-links-quicklinks > p {
+    margin-bottom: 0.5rem; 
+}
+
+.kat__footer-links_contact > p {
+    margin-bottom: 1rem;
+}
+
+.kat__footer-links_logo {
+    font-family: var(--font-main);
 }
 
 .kat__footer-links_logo img:first-child {
@@ -41,34 +58,24 @@
     margin-bottom: 1rem;
 }
 
-.kat__footer-links_icons {
-    margin-top: 0.5rem;
-}
-
-.kat__footer-links_icons svg {
-    color: var(--color-white);
-    margin: 0.5rem;
-    font-size: 24px;
-    cursor: pointer;
-}
-
-.kat__footer-links_icons svg:hover {
-    color: var(--color-golden);
-}
-
 .kat__footer-headtext {
-    font-family: var(--font-base);
+    font-family: var(--font-secondary);
     color: var(--color-white);
     font-weight: 400;
     letter-spacing: 0.04em;
-    text-transform: capitalize;
     font-size: 32px;
     line-height: 41.6px;
     margin-bottom: 1rem;
 }
 
 .footer__copyright {
-    margin-top: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: var(--font-secondary);
+    background-color: var(--color-bluetext);
+    color: white;
+    text-align: center;
+    
 }
 
 @media screen and (min-width: 2000px) {

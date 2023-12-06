@@ -104,14 +104,12 @@
     .kat__findus-banner p {
         padding-top: 23px;
     }
-  }
+}
 
-  @media screen and (max-width: 1050px) {
+@media screen and (max-width: 1050px) {
     .kat__findus-hours-box {
         width: 300px;
     }
-
-    
 
     .kat__findus-hours-box-title p {
         font-size: 20px;
@@ -129,9 +127,9 @@
         padding-top: 20px;
         font-size: 25px;
     }
-  }
+}
 
-  @media screen and (max-width: 760px) {
+@media screen and (max-width: 760px) {
     .kat__findus-container{
         flex-direction: column;
     }
@@ -162,4 +160,28 @@
         padding-top: 20px;
         font-size: 25px;
     }
-  }
+}
+
+@media screen and (max-width: 318px) {
+    .kat__findus-banner {
+        width: 150px;
+    }
+
+    .kat__findus-banner p {
+        padding-top: 10px;
+        padding-left: 20px;
+        font-size: 15px;
+    }
+
+    .kat__findus-hours-box {
+        width: 100%;
+    }
+
+    .kat__findus-hours-box-title p {
+        font-size: 15px;
+    }
+
+    .kat__findus-hours-box-group p, .kat__findus-hours-box-info {
+        font-size: 10px;
+    }
+}

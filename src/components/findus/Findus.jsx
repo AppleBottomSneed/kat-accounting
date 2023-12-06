@@ -3,7 +3,7 @@ import './findus.css';
 import { images } from '../../constants';
 
 const Workhours = () => (
-  <div className="kat__findus-availability-box">
+  <div className="kat__findus-availability-box" id='contact'>
     <div className="kat__findus-banner">
       <p>Come Find Us:</p>
     </div>

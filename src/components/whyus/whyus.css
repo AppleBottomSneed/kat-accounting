@@ -98,18 +98,31 @@
     .kat__whyus-flexbox {
         flex-direction: column;
     }
+
+    .kat__whyus-selfie {
+        margin-bottom: 10px;
+    }
 }    
 
 @media screen and (max-width: 650px ) {
+    .kat__whyus-title {
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+    
     .kat__whyus-title p {
-        font-size: 50px;
+        font-size: 25px;
     }
 
     .kat__whyus-director-statement p {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .kat__whyus-awardtitle p {
         font-size: 15px;
+    }
+
+    .kat__whyus-container-padding {
+        padding: 1rem 1.5rem 3rem;
     }
 }

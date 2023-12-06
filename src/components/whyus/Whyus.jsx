@@ -4,7 +4,7 @@ import "./whyus.css";
 
 const Whyus = () => {
     return (
-        <div className="section__padding">
+        <div className="section__padding" id="whyus">
             <div className="kat__whyus-container kat__whyus-container-padding">
                 <div className="kat__whyus-title">
                     <p>Why Us?</p>

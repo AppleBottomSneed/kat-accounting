@@ -24,7 +24,7 @@ const ServiceCard = ({service: { imgUrl, title, description }}) => (
 
 const Services = () => {
   return (
-    <div className="section__padding">
+    <div className="section__padding" id="services">
       <div className="kat__services-container kat__services-container-padding">
         <div className="kat__services-title">
           <p>Our Services</p>

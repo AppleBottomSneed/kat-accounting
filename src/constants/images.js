@@ -1,5 +1,7 @@
 import tax from '../components/assets/frontcovergraphics.png';
 import logo from '../components/assets/logo.png';
+import logoSmall from '../components/assets/katlogosmall.png';
+import logoPdf from '../components/assets/katalogofull.pdf.png';
 import serviceIcon1 from '../components/assets/servicegraphics1.png';
 import serviceIcon2 from '../components/assets/servicegraphics2.png';
 import serviceIcon3 from '../components/assets/servicegraphics3.png';
@@ -12,6 +14,8 @@ import bannerBlur from '../components/assets/bannerblur.png';
 const assets = {
     tax, 
     logo,
+    logoSmall,
+    logoPdf,
     serviceIcon1,
     serviceIcon2,
     serviceIcon3,

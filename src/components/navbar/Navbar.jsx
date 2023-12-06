@@ -16,7 +16,7 @@ const Menu = () => (
       <a href="#resources">Resources</a>
     </p>
     <p>
-      <a href="#features">About Us</a>
+      <a href="#whyus">About Us</a>
     </p>
     <p>
       <a href="#contact">Contact</a>
@@ -33,7 +33,12 @@ const Navbar = () => {
     <div className="kat__navbar">
       <div className="kat__navbar-links">
         <div className="kat__navbar-links_logo">
-          <img src={images.logo} alt="logo" />
+          <div className="kat__navbar-links_logo_big">
+            <img src={images.logoPdf} alt="logo" />
+          </div>
+          <div className="kat__navbar-links_logo_mobile">
+            <img src={images.logoSmall} alt="logo" />
+          </div>
         </div>
         <div className="kat__navbar-links_container">
           <Menu />
@@ -54,8 +59,7 @@ const Navbar = () => {
               <Menu />
             </div>
             <div className="kat__navbar-menu_container-links-sign">
-              <p>Sign in</p>
-              <button type="button">Sign up</button>
+              <p>(08) 64603830</p>
             </div>
           </div>
         )}

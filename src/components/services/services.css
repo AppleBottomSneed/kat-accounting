@@ -154,13 +154,26 @@
     }
 
     .kat__services-infocard-description p {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .kat__services-infocard-button button {
         min-width: 18px;
         min-height: 18px;
         font-size: 10px; 
+    }
+
+    .kat__services-title p  {
+        font-size: 25px;
+    }
+
+    .kat__services-infocard-viewall button {
+        font-size: 11px;
+        
+    }
+
+    .kat__services-container-padding {
+        padding: 1rem 1.5rem 3rem;
     }
 }
 
