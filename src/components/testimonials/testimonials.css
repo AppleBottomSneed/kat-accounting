@@ -44,7 +44,7 @@
     font-style: italic;
     color: white;
     /*Change height here for bigger descriptions*/
-    min-height: 250px;
+    min-height: 300px;
 }
 
 .kat__testimonial-redline {
@@ -63,6 +63,12 @@
     color: white;
     font-family: var(--font-main);
     line-height: 140%;
+}
+
+@media screen and (max-width: 1440px ) {
+    .kat__testimonial-review-description {
+        min-height: 450px;
+    }
 }
 
 @media screen and (max-width: 1130px ) {

@@ -10,19 +10,27 @@ const Footer = () => {
           <div className="kat__footer-links_contact">
             <h1 className="kat__footer-headtext">Contact Us</h1>
             <p>T2/152 Great Eastern Hwy, Ascot WA 6104</p>
-            <p>(08) 1234 5678</p>
-            <p></p>
+            <p>
+              <a href="tel:064603830">(08) 64603830</a>
+            </p>
           </div>
           <div className="kat__footer-links_logo">
             <img src={images.logoSmall} alt="footer_logo" />
             <p>"Your financial affairs are in good hands"</p>
             <div className="kat__footer-links-quicklinks">
               <h1 className="kat__footer-headtext">Quick Links</h1>
-              <p>Home</p>
-              <p>Services</p>
-              <p>Resources</p>
-              <p>About us</p>
-              <p>Contact Us</p>
+              <p>
+                <a href='#home'>Home</a>
+              </p>
+              <p>
+                <a href='#services'>Services</a>
+              </p>
+              <p>
+                <a href='#whyus'>About Us</a>
+              </p>
+              <p>
+                <a href='#contact'>Contact Us</a>
+              </p>
             </div>
           </div>
           <div className="kat__footer-links_work">

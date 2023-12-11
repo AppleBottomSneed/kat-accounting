@@ -11,7 +11,7 @@ const Whyus = () => {
                 </div>
                 <div className="kat__whyus-flexbox kat__whyus-container-padding">
                     <div className="kat__whyus-selfie">
-                        <img src={images.serviceIcon1} alt="directorimage"/>
+                        <img src={images.whyusIcon} alt="directorimage"/>
                     </div>
                     <div className="kat__whyus-director">
                         <div className="kat__whyus-director-name">
@@ -30,7 +30,10 @@ const Whyus = () => {
                             <div className="kat__whyus-awardtitle">
                                 <p>Pround Members of:</p>
                             </div>
-                            <img src={images.ntaaicon} alt="ntaa"/>
+                            <div className="kat__whyus-awards-images">
+                                <img src={images.ntaaicon} alt="ntaa"/>
+                                <img src={images.tpbicon} alt="ntaa"/>
+                            </div>
                         </div>
                     </div>
                 </div>

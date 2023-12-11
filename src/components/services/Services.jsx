@@ -16,9 +16,11 @@ const ServiceCard = ({service: { imgUrl, title, description }}) => (
     <div className="kat__services-infocard-description">
         <p>{description}</p>
     </div>
+    {/*
     <div className="kat__services-infocard-button">
       <button>Learn More</button>
     </div>
+    */} 
   </div>
 );
 
@@ -32,9 +34,11 @@ const Services = () => {
         <div className="kat__services-infocard-flex">
           {data.services.map((service) => <ServiceCard service={service}/>)}
         </div>
+        {/*
         <div className="kat__services-infocard-viewall">
           <button>View All Services</button>
         </div>
+        */} 
       </div>
     </div>
   );

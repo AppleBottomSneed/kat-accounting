@@ -13,9 +13,6 @@ const Menu = () => (
       <a href="#services">Services</a>
     </p>
     <p>
-      <a href="#resources">Resources</a>
-    </p>
-    <p>
       <a href="#whyus">About Us</a>
     </p>
     <p>
@@ -45,7 +42,9 @@ const Navbar = () => {
         </div>
       </div>
       <div className="kat__navbar-sign">
-        <p>(08) 64603830</p>
+        <p>
+          <a href="tel:064603830">(08) 64603830</a>
+        </p>
       </div>
       <div className="kat__navbar-menu">
         {toggleMenu ? (
@@ -59,7 +58,9 @@ const Navbar = () => {
               <Menu />
             </div>
             <div className="kat__navbar-menu_container-links-sign">
-              <p>(08) 64603830</p>
+              <p>
+                <a href="tel:064603830">(08) 64603830</a>
+              </p>
             </div>
           </div>
         )}

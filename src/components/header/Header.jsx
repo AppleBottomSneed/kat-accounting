@@ -12,12 +12,13 @@ const Header = () => {
           <span className="kat__text-red"> right</span>
           <span className="kat__text-black">.</span>
         </h1>
-        <p>
-        Here at KAT Accounting Services we ensure our clients can sleep easy knowing their business is financially safe and sound.</p>
+        <p>Here at KAT Accounting Services we ensure our clients can sleep easy knowing their business is financially safe and sound.</p>
         <p>We combine our accounting and bookkeeping in a neat and affordable package hassle-free. </p>
         <p>Call us for a free consultation and we’ll get you sorted.</p>
         <div className="kat__header-content__input">
-          <button type="button">Contact Us</button>
+          <a href="#contact">
+            <button type="button">Contact Us</button>
+          </a>
         </div>
       </div>
       <div className="kat__header-image">
